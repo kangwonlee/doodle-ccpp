@@ -4,9 +4,9 @@ int main() {
     int n = 0;
     int arr[1000] = {0};
 
-    printf("ì…ë ¥í•  ìˆ«ìì˜ ê°œìˆ˜ : ");
+    printf("ÀÔ·ÂÇÒ ¼ıÀÚÀÇ °³¼ö : ");
     scanf("%d", &n);
-    printf("ìˆ«ì %dê°œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ", n);
+    printf("¼ıÀÚ %d°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
