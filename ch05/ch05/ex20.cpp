@@ -2,8 +2,7 @@
 
 int main() {
     int a = 10;
-    int* ptr_a;
-    ptr_a = &a;
+    int* ptr_a = &a;
 
     *ptr_a = 20;
     printf("a = %d\n", a);

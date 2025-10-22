@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10;
-    int* ptr_a;
-    ptr_a = &a;
+    const int a = 10;
+    const int* ptr_a = &a;
 
     printf("a의 값 : %d\n", a);
     printf("a의 주솟값 : %d\n", &a);

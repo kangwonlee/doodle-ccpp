@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    int arr[1000];
+    int n = 0;
+    int arr[1000] = {0};
 
     printf("입력할 숫자의 개수 : ");
     scanf("%d", &n);
