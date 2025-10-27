@@ -8,7 +8,7 @@ int main() {
     // ptr_a에 a의 주솟값 저장
     ptr_a = &a;
 
-    printf("a의 값 : %d\n", a);
-    printf("a의 주솟값 : %d\n", &a);
-    printf("ptr_a의 값 : %d\n", ptr_a);
+    printf("a     = %lx\n", (long int) a);
+    printf("&(a)  = %lx\n", (long int) &a);
+    printf("ptr_a = %lx\n", (long int) ptr_a);
 }
