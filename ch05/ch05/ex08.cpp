@@ -13,6 +13,6 @@ int main() {
 
     puts("Null Terminated String");
 
-    printf("s       = %x\n", (long int) s);
-    printf("&(s[0]) = %x\n", (long int) &(s[0]));
+    printf("s       = %lx\n", (long) s);
+    printf("&(s[0]) = %lx\n", (long) &(s[0]));
 }
