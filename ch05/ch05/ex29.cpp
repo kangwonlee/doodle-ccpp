@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int arr[10];
+    const int arr[10] = {0};
 
-    printf("%d\n", &arr);
-    printf("%d\n", arr);
-    printf("%d\n", &arr[0]);
+    printf("%ld\n", (long) &arr);
+    printf("%ld\n", (long) arr);
+    printf("%ld\n", (long) &arr[0]);
 }
