@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10;
+    const int a = 10;
 
-    printf("&a = %d\n", &a);
-    printf("(&a) + 1 = %d\n", (&a) + 1);
-    printf("(&a) + 2 = %d\n", (&a) + 2);
+    printf("&a = %ld\n", (long) &a);
+    printf("(&a) + 1 = %ld\n", (long) ((&a) + 1));
+    printf("(&a) + 2 = %ld\n", (long) ((&a) + 2));
 }
