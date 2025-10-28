@@ -2,7 +2,7 @@
 
 int main() {
     char str[4][10] = { "hello", "world", "doodle", "google" };
-    char* ptr[4];
+    char* ptr[4] = {NULL};
 
     for (int i = 0; i < 4; i++) {
         ptr[i] = str[i];
