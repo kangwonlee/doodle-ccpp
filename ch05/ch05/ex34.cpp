@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    char str[4][10] = { "hello", "world", "doodle", "google" };
-    char* ptr[4] = {NULL};
+    const char *str[] = { "hello", "world", "doodle", "google" };
+    const char* ptr[4] = {NULL};
 
     for (int i = 0; i < 4; i++) {
         ptr[i] = str[i];
     }
     for (int i = 0; i < 4; i++) {
-        printf("%s\n", ptr[i]);
+        printf("%ld\t%s\n", (long) ptr[i], ptr[i]);
     }
 }
