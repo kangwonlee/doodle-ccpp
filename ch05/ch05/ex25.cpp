@@ -4,6 +4,6 @@ int main() {
     const int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
     for (int i = 0; i < 10; i++) {
-        printf("arr[%d]狼 林家 : %d\n", i, &arr[i]);
+        printf("arr[%d]狼 林家 : %ld\n", i, (long) &(arr[i]));
     }
 }
