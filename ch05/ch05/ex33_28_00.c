@@ -9,6 +9,7 @@ int main() {
   }
 
   for (int i = 0; i < 4; i++) {
+    printf("ptr[%d] = %ld\t", i, (long) ptr[i]);
     printf("*(ptr[%d]) = %d\n", i, *(ptr[i]));
   }
 }
