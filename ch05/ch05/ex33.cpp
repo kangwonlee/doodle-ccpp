@@ -6,6 +6,7 @@ int main() {
     const int (*last_row)[4] = arr +3;
 
     for (const int (*pi)[4] = arr; pi < last_row; pi++) {
+        printf("%12ld", (long) pi);
         for (const int* pj = *pi; pj < *pi + 4; pj++) {
             printf("%4d", *pj);
         }
