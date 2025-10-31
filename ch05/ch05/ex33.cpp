@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "ex33.h"
 
 int main() {
     const int arr[3][4] = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } };
