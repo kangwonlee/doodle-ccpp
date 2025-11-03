@@ -3,6 +3,14 @@
 *.vcxproj
 *.vcxproj.*
 
+# MS Visual Studio Code
+.vscode/
+.vscode/*
+
 # executable
 a.out
 *.out
+
+# debugger info
+*.dSYM/
+*.dSYM/*
