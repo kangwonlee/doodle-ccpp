@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/sf6tCBfv_0E
 
 int plus(int a, int b) {
     return a + b;  // a와 b의 값을 더해 리턴한다.

@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/sf6tCBfv_0E
 
 int itemCnt = 0;
 int money = 100;

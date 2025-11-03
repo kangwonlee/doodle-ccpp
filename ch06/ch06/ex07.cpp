@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/sf6tCBfv_0E
 
 void noMeaning() {
     printf("first\n");
