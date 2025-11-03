@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/k3BGMbOvpCI
 
 // 함수 프로토타입 선언
 void walk(int distance);

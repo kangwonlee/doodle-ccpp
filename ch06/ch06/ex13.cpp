@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/k3BGMbOvpCI
 
 void walk(int distance) {
     printf("%dcm 앞으로 전진했습니다.\n", distance);
