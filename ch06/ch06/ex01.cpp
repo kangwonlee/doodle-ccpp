@@ -1,5 +1,8 @@
 ﻿#include <stdio.h>
 
+// 이 파일을 같은 폴더의 ex02.cpp, ex03.cpp, ex04.cpp
+// 파일과 비교 바랍니다.
+
 int main() {
     int itemCnt = 0;
     int money = 100;
