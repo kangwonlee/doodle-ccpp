@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/mMLcTPKC6o8
 
 void rec(int n) {
     if (n > 5) {  // n이 5보다 크면 함수를 종료한다.

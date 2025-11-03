@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/mMLcTPKC6o8
 
 int fact(int n) {
     if (n == 1) return 1;  // n이 1일 때 1을 리턴한다.
