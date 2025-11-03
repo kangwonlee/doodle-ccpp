@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10;
-    printf("%d\n", &a);
+    const int a = 10;
+    printf("%ld\n", (long) &a);
 }

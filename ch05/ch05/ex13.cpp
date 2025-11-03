@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char s1[] = "hello";
+    const char s1[] = "hello";
     char s2[100] = {0};
 
     strcpy(s2, s1);  // s2에 s1의 내용물을 복사한다.
