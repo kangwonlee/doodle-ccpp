@@ -3,7 +3,7 @@
 
 void swap(int x, int y) {  // x, y를 매개변수로 받는다.
     // x, y를 스왑한다.
-    int tmp = x;
+    const int tmp = x;
     x = y;
     y = tmp;
 }

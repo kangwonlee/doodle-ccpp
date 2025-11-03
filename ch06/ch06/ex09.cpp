@@ -4,7 +4,7 @@
 int itemCnt = 0;
 int money = 100;
 
-int buyItem(int cost) {
+int buyItem(const int cost) {
     if (money < cost) {
         return -1;
     }

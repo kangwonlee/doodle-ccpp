@@ -2,7 +2,7 @@
 // https://youtu.be/Bpu5YiAgETo
 
 void swap(int& x, int& y) {
-    int tmp = x;
+    const int tmp = x;
     x = y;
     y = tmp;
 }

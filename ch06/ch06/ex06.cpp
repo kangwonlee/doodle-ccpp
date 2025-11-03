@@ -9,6 +9,6 @@ int noMeaning() {
 }
 
 int main() {
-    int ret = noMeaning();  // noMeaning 함수의 리턴 값을 저장
-    printf("%d\n", ret);
+    //const int ret = noMeaning();  // noMeaning 함수의 리턴 값을 저장
+    printf("%d\n", noMeaning());
 }

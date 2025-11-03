@@ -1,7 +1,7 @@
 #include <stdio.h>
 // https://youtu.be/mMLcTPKC6o8
 
-void rec(int n) {
+void rec(const int n) {
     printf("n = %d\n", n);
     rec(n + 1);
 }

@@ -4,7 +4,7 @@
 int itemCnt = 0;
 int money = 100;
 
-void buyItem(int cost) {
+void buyItem(const int cost) {
     itemCnt++;
     money -= cost;
     printf("아이템을 구매했습니다.\n");

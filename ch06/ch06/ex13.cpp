@@ -1,11 +1,11 @@
 #include <stdio.h>
 // https://youtu.be/k3BGMbOvpCI
 
-void walk(int distance) {
+void walk(const int distance) {
     printf("%dcm 앞으로 전진했습니다.\n", distance);
 }
 
-void rotate(int angle) {
+void rotate(const int angle) {
     printf("%d도 회전했습니다.\n", angle);
 }
 
