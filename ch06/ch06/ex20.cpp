@@ -1,4 +1,5 @@
 #include <stdio.h>
+// https://youtu.be/mS-pdOCVBoo
 
 void printArr(int parr[4]) {
     printf("parrÀÇ °ª : %d\n", parr);
