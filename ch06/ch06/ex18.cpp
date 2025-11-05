@@ -7,7 +7,7 @@ int fact(const int n) {
 }
 
 int main() {
-    int n;
+    int n = 0;
 
     printf("정수 입력 : ");
     scanf("%d", &n);
