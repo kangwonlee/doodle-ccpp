@@ -8,7 +8,7 @@ struct ProductInfo {
 };
 
 int main() {
-    ProductInfo myProduct = { 4797283, "力林 茄扼豪", 19900 };
+    const ProductInfo myProduct = { 4797283, "力林 茄扼豪", 19900 };
 
     printf("%d\n", sizeof(myProduct));
     printf("%d\n", &myProduct);

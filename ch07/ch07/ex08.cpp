@@ -5,12 +5,12 @@ struct Time {
     int h, m, s;
 };
 
-int totalSec(Time t) {
+int totalSec(const Time t) {
     return 60 * 60 * t.h + 60 * t.m + t.s;
 }
 
 int main() {
-    Time t = { 1, 22, 48 };
+    const Time t = { 1, 22, 48 };
 
     printf("%d\n", totalSec(t));
 }
