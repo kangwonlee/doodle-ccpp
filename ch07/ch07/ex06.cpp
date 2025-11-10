@@ -1,4 +1,5 @@
 #include <stdio.h>
+// 41. https://youtu.be/nprq56hdAqU
 
 struct ProductInfo {
     int num;
