@@ -3,7 +3,7 @@
 
 struct Time {
     int h, m, s;
-
+    // c++ only
     int totalSec() {
         return 60 * 60 * h + 60 * m + s;
     }
