@@ -1,5 +1,5 @@
-#include <stdio.h>
 // 46. https://youtu.be/8P6RXhBp_sM&t=7
+#include <stdio.h>
 
 int main() {
     printf("%d\n", 1 << 4);      // 00000001 -> 00010000

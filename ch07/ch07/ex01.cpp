@@ -1,5 +1,5 @@
-﻿#include <stdio.h>
-// 39. https://youtu.be/hjRShGENaow
+﻿// 39. https://youtu.be/hjRShGENaow
+#include <stdio.h>
 
 int main() {
     struct { float x, y; } pos;

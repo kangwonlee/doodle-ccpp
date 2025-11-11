@@ -1,7 +1,7 @@
+// 48. https://youtu.be/XuILAciYBYI&t=7s
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-// 48. https://youtu.be/XuILAciYBYI&t=7s
 
 int main() {
     srand(time(NULL));  // 현재 시각을 시드 값으로 설정

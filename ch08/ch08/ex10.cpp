@@ -1,5 +1,5 @@
-#include <stdio.h>
 // 46. https://youtu.be/8P6RXhBp_sM&t=7
+#include <stdio.h>
 
 int main() {
     int a = 106, b = 83;

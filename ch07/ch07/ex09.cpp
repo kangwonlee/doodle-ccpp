@@ -1,5 +1,5 @@
-#include <stdio.h>
 // 42. https://youtu.be/T2Mo4nD6Cnc
+#include <stdio.h>
 
 struct Time {
     int h, m, s;

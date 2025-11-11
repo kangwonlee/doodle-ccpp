@@ -1,5 +1,5 @@
-#include <stdio.h>
 // 45. https://www.youtube.com/watch?v=taq4xn_ET9s&t=7s
+#include <stdio.h>
 
 // I: 변수 이름, S: 시작 수, E: 끝 수
 #define FOR(I,S,E) for (int I = S; I <= E; I++)

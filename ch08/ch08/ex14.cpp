@@ -1,5 +1,5 @@
-#include <stdio.h>
 // 47. https://youtu.be/K08uNEtlqTg&t=7
+#include <stdio.h>
 
 int main() {
     FILE* in;

@@ -1,5 +1,5 @@
-﻿#include <stdio.h>
-// 44. https://www.youtube.com/watch?v=nSxNgDJEnN0&t=7s
+﻿// 44. https://www.youtube.com/watch?v=nSxNgDJEnN0&t=7s
+#include <stdio.h>
 const double PI = 3.14159265358979;  // PI는 상수로 선언
 
 double getArea(const double r) {
