@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// 48. https://youtu.be/XuILAciYBYI&t=7s
 
 // 숫자 5개를 입력받아 그 합을 리턴하는 함수
 int getSum() {

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+// 48. https://youtu.be/XuILAciYBYI&t=7s
 
 int main() {
     int a;

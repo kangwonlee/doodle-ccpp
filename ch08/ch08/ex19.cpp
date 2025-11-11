@@ -1,4 +1,5 @@
 #include <stdio.h>
+// 48. https://youtu.be/XuILAciYBYI&t=7s
 
 int main() {
     char sa[] = "123";
