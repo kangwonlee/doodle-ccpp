@@ -1,7 +1,8 @@
 #include <stdio.h>
+// 44. https://www.youtube.com/watch?v=nSxNgDJEnN0&t=7s
 #define PI 3.14159265358979
 
-double getArea(double r) {
+double getArea(const double r) {
     return PI * r * r;
 }
 
