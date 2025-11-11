@@ -1,3 +1,4 @@
+// 27. https://youtu.be/6i_z0te48vY&t=8s
 #include <stdio.h>
 
 int main() {
