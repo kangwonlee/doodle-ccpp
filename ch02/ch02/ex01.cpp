@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿// 04. https://youtu.be/Iynx1asfsOM&t=7s
+#include <stdio.h>
 
 int main() {
     int a;  // 선언
