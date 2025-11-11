@@ -1,5 +1,5 @@
+// 32. https://youtu.be/sf6tCBfv_0E&t=7
 #include <stdio.h>
-// https://youtu.be/sf6tCBfv_0E
 
 int plus(const int a, const int b) {
     return a + b;  // a와 b의 값을 더해 리턴한다.

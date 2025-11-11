@@ -1,5 +1,5 @@
+// 31. https://youtu.be/qD1QtFTeAoM&t=39
 #include <stdio.h>
-// https://youtu.be/qD1QtFTeAoM
 
 int itemCnt = 0;  // 전역 변수
 int money = 100;  // 전역 변수

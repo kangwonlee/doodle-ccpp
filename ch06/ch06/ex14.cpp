@@ -1,5 +1,5 @@
+// 34. https://youtu.be/k3BGMbOvpCI&t=7s
 #include <stdio.h>
-// https://youtu.be/k3BGMbOvpCI
 
 // 함수 프로토타입 선언
 void walk(const int distance);

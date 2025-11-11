@@ -1,5 +1,5 @@
+// 34. https://youtu.be/k3BGMbOvpCI&t=7s
 #include <stdio.h>
-// https://youtu.be/k3BGMbOvpCI
 
 void walk(const int distance) {
     printf("%dcm 앞으로 전진했습니다.\n", distance);

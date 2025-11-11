@@ -1,5 +1,5 @@
+// 36. https://youtu.be/mS-pdOCVBoo&t=7s
 #include <stdio.h>
-// https://youtu.be/mS-pdOCVBoo
 
 void printArr(int parr[4]) {  // void printArr(int *parr)과 같은 말
     for (int i = 0; i < 4; i++) {

@@ -1,5 +1,5 @@
+// 33. https://youtu.be/Bpu5YiAgETo&t=7s
 #include <stdio.h>
-// https://youtu.be/Bpu5YiAgETo
 
 void swap(int* px, int* py) {
     const int tmp = *px;  // px가 가리키는 변수의 값을 tmp에 넣고

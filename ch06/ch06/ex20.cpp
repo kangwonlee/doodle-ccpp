@@ -1,5 +1,5 @@
+// 36. https://youtu.be/mS-pdOCVBoo&t=7s
 #include <stdio.h>
-// https://youtu.be/mS-pdOCVBoo
 
 void printArr(const int parr[4]) {
     printf("parrÀÇ °ª : %d\n", parr);

@@ -1,5 +1,5 @@
+// 33. https://youtu.be/Bpu5YiAgETo&t=7s
 #include <stdio.h>
-// https://youtu.be/Bpu5YiAgETo
 
 void swap(int x, int y) {  // x, y를 매개변수로 받는다.
     // x, y를 스왑한다.

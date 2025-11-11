@@ -1,5 +1,5 @@
+// 35. https://youtu.be/mMLcTPKC6o8&t=7s
 #include <stdio.h>
-// https://youtu.be/mMLcTPKC6o8
 
 void rec(const int n) {
     if (n > 5) {  // n이 5보다 크면 함수를 종료한다.
