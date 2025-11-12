@@ -11,6 +11,7 @@ void productDiscount(ProductInfo* p, int discount_rate){
     printf("p\t\t= %08lx\n", (long) p);
 
     p->cost += (int) (((double) ((p->cost) * discount_rate)) * (-0.01));
+    printf("p->cost\t\t: %d(KRW)\n", p->cost);
 }
 
 int main() {
