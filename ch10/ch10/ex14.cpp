@@ -7,7 +7,7 @@ using namespace std;
 class Vector2 {
 public:
     Vector2();
-    Vector2(float x, float y);
+    Vector2(const float x, const float y);
     float GetX() const;
     float GetY() const;
     static Vector2 Sum(Vector2 a, Vector2 b);  // 정적 메서드 선언

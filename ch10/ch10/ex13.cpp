@@ -5,7 +5,7 @@ using namespace std;
 class Vector2 {
 public:
     Vector2();
-    Vector2(float x, float y);
+    Vector2(const float x, const float y);
     float GetX() const;
     float GetY() const;
 

@@ -5,7 +5,7 @@ using namespace std;
 class Color {
 public:
     Color() : r(0), g(0), b(0) { }
-    Color(float r, float g, float b) : r(r), g(g), b(b) { }
+    Color(const float r, const float g, const float b) : r(r), g(g), b(b) { }
 
     float GetR() {
         return r;
@@ -17,7 +17,7 @@ public:
         return b;
     }
 
-    static Color MixColors(Color a, Color b) {
+    static Color MixColors(const Color a, const Color b) {
         return Color((a.r + b.r) / 2, (a.g + b.g) / 2, (a.b + b.b) / 2);
     }
 

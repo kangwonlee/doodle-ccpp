@@ -8,7 +8,7 @@ public:
         real = 0;
         imag = 0;
     }
-    Complex(double real_, double imag_) {
+    Complex(const double real_, const double imag_) {
         real = real_;
         imag = imag_;
     }
@@ -16,14 +16,14 @@ public:
     double GetReal() {
         return real;
     }
-    void SetReal(double real_) {
+    void SetReal(const double real_) {
         real = real_;
     }
 
     double GetImag() {
         return imag;
     }
-    void SetImag(double imag_) {
+    void SetImag(const double imag_) {
         imag = imag_;
     }
 

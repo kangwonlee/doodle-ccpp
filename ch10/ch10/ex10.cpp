@@ -4,7 +4,7 @@ using namespace std;
 
 class Complex {
 public:
-    Complex(double real_ = 0, double imag_ = 0) {
+    Complex(const double real_ = 0, const double imag_ = 0) {
         real = real_;
         imag = imag_;
     }
