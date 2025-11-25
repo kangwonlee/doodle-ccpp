@@ -1,4 +1,5 @@
 // 58. https://www.youtube.com/watch?v=SJx5czHKSy8&t=8s
+// https://en.cppreference.com/w/cpp/language/static.html
 #include <iostream>
 using namespace std;
 
@@ -18,7 +19,11 @@ public:
     }
 
     static Color MixColors(const Color a, const Color b) {
-        return Color((a.r + b.r) / 2, (a.g + b.g) / 2, (a.b + b.b) / 2);
+        return Color(
+            (a.r + b.r) / 2,
+            (a.g + b.g) / 2,
+            (a.b + b.b) / 2
+        );
     }
 
 private:
