@@ -1,4 +1,5 @@
-// 58. https://www.youtube.com/watch?v=SJx5czHKSy8&t=8s
+// 59. https://www.youtube.com/watch?v=SJx5czHKSy8&t=26s
+// https://en.cppreference.com/w/cpp/language/static.html
 #include <iostream>
 using namespace std;
 
