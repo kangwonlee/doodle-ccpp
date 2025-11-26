@@ -5,7 +5,7 @@ using namespace std;
 class MyClass {
 public:
     void PrintThis() {
-        cout << "나의 주소는 " << this << endl;
+        cout << "this = " << this << endl;
     }
 
     int x;
@@ -14,8 +14,8 @@ public:
 int main() {
     MyClass a, b;
 
-    cout << "객체 a의 주소는 " << &a << endl;
-    cout << "객체 b의 주소는 " << &b << endl;
+    cout << "&a = " << &a << endl;
+    cout << "&b = " << &b << endl;
 
     a.PrintThis();
     b.PrintThis();
