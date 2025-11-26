@@ -5,23 +5,23 @@ using namespace std;
 class MyClass {
 public:
     MyClass() {  // 생성자
-        cout << "생성자가 호출되었다!!" << endl;
+        cout << "Constructor called" << endl;
     }
     ~MyClass() {  // 소멸자
-        cout << "소멸자가 호출되었다!!" << endl;
+        cout << "Destructor called" << endl;
     }
 };
 
 // MyClass globalObj;  // 전역 객체(잠시 주석 처리)
 
 void testLocalObj() {
-    cout << "=== testLocalObj 함수 시작 ===" << endl;
+    cout << "=== function testLocalObj start ===" << endl;
     MyClass localObj;  // 지역 객체
-    cout << "=== testLocalObj 함수 끝 ===" << endl;
+    cout << "=== function testLocalObj end ===" << endl;
 }
 
 int main() {
-    cout << "=== main 함수 시작 ===" << endl;
+    cout << "=== main function start ===" << endl;
     testLocalObj();
-    cout << "=== main 함수 끝 ===" << endl;
+    cout << "=== main function end ===" << endl;
 }
