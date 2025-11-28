@@ -12,7 +12,7 @@ class CashCard {
     void deposit(const int amount_krw) {
       balance_krw += amount_krw;
     }
-    int balance() {
+    int balance() const {
       return balance_krw;
     }
 };
