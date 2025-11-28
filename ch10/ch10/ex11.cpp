@@ -14,7 +14,7 @@ public:
     float GetG() {
         return g;
     }
-    float GetB() {
+    float GetB() { //getter function
         return b;
     }
 
