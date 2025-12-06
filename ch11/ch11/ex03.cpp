@@ -1,5 +1,6 @@
+// 67. https://youtu.be/EuYdn_STq9U&t=8s
 #include <iostream>
-#include <string.h>
+#include <string>
 using namespace std;
 
 class String {
