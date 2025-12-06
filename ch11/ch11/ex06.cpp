@@ -50,10 +50,10 @@ public:
 private:
     void alloc(int len) {
         strData = new char[len + 1];
-        cout << "strData ÇÒ´çµÊ : " << (void*)strData << endl;
+        cout << "alloc strData : " << (void*)strData << endl;
     }
     void release() {
-        if (strData) cout << "strData ÇØÁ¦µÊ : " << (void*)strData << endl;
+        if (strData) cout << "release strData : " << (void*)strData << endl;
         delete[] strData;
     }
 
