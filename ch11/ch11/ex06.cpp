@@ -72,5 +72,6 @@ int main() {
     String a;
     cout << "===== 1 =====" << endl;
     a = getName();
+    // clang++ may not create a temporary object here
     cout << "===== 4 =====" << endl;
 }
