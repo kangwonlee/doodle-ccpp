@@ -8,13 +8,13 @@ public:
     Item() {
         cout << "Item()" << endl;
     }
-    Item(int num) : num(num) {
+    Item(const int num) : num(num) {
         cout << "Item(int)" << endl;
     }
-    Item(string name) : name(name) {
+    Item(const string name) : name(name) {
         cout << "Item(string)" << endl;
     }
-    Item(int num, string name) : num(num), name(name) {
+    Item(const int num, const string name) : num(num), name(name) {
         cout << "Item(int, string)" << endl;
     }
 
