@@ -1,3 +1,5 @@
+// 72. https://youtu.be/G6mi7za8JbE&t=8s
+
 #include <iostream>
 #include <string>
 using namespace std;
