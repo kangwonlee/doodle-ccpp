@@ -11,8 +11,8 @@ public:
     String(String&& rhs) {  // 이동 생성자
         cout << "String(String&&) : " << this << endl;
         len = rhs.len;
-        strData = rhs.strData;
-        rhs.strData = NULL;
+        strData = rhs.strData; // shallow copy
+        rhs.strData = NULL; // To avoid double free
     }
 
     ~String() { /*...*/ }
@@ -21,9 +21,9 @@ public:
     String& operator=(String&& rhs) {  // 이동 대입 연산자
         cout << "String &operator=(String&&) : " << this << endl;
         len = rhs.len;
-        strData = rhs.strData;
+        strData = rhs.strData; // shallow copy
         rhs.strData = NULL;
-        return *this;
+        return *this; // To avoid double free
     }
 
     char* GetStrData() const { /*...*/ }
