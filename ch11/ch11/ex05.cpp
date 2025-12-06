@@ -8,21 +8,28 @@ public:
     String() {
         strData = NULL;
         len = 0;
+        show("String()");
     }
     String(const char* str) {
         len = strlen(str);
         strData = new char[len + 1];
         strcpy(strData, str);
+        show("String(const char*)");
     }
     String(const String& rhs) {  // 복사 생성자
         len = rhs.len;
         strData = new char[len + 1];
         strcpy(strData, rhs.strData);
+        show("String(const String&)");
     }
     ~String() {
         if (strData) {
             delete[] strData;
         }
+        show("~String()");
+    }
+    void show(const char* msg="", const char end='\n') const {
+        cout << msg << " this : " << this << " strData : " << (void *) strData << end;
     }
 
     String& operator=(const String& rhs) {  // 복사 대입 연산자
@@ -32,6 +39,8 @@ public:
             strData = new char[len + 1];
             strcpy(strData, rhs.strData);
         }
+        show("operator=(const String&)", ' ');
+        cout << "rhs : " << &rhs << " rhs.strData : " << (void*)rhs.strData << endl;
         return *this;
     }
 
