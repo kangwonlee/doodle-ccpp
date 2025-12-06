@@ -31,8 +31,8 @@ int main() {
     Item a4 = 4;
     Item a5, a6, a7;
     a5 = Item(5);
-    a6 = 6;
-    a7 = (Item)7;
+    a6 = 6; // Implicit conversion
+    a7 = (Item)7; // Explicit conversion
 
     cout << "===== B =====" << endl;
     Item b4 = string("Stone");
@@ -40,8 +40,8 @@ int main() {
     cout << "===== C =====" << endl;
     Item c1 = Item(1, "Stone");
     Item c2(2, "Dirt");
-    Item c4 = { 3, "Wood" };
+    Item c4 = { 3, "Wood" }; // Implicit conversion
     Item c5, c6;
     c5 = Item(4, "Grass");
-    c6 = { 5, "Water" };
+    c6 = { 5, "Water" }; // Implicit conversion
 }
