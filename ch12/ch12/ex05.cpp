@@ -6,7 +6,7 @@ using namespace std;
 class Image {
 public:
     operator string() {
-        return "사진";
+        return "Image";
     }
 };
 
@@ -53,17 +53,17 @@ private:
 
 int main() {
     Image* dogImage = new Image;
-    TextMessage* hello = new TextMessage(10, "두들", "안녕");
-    ImageMessage* dog = new ImageMessage(20, "두들", dogImage);
+    TextMessage* hello = new TextMessage(10, "Doodle", "Hello");
+    ImageMessage* dog = new ImageMessage(20, "Doodle", dogImage);
 
-    cout << "보낸 시간 : " << hello->GetSendTime() << endl;
-    cout << "보낸 사람 : " << hello->GetSendName() << endl;
-    cout << "  내 용   : " << hello->GetText() << endl;
+    cout << "Time   : " << hello->GetSendTime() << endl;
+    cout << "Sender : " << hello->GetSendName() << endl;
+    cout << "  Content   : " << hello->GetText() << endl;
     cout << endl;
 
-    cout << "보낸 시간 : " << dog->GetSendTime() << endl;
-    cout << "보낸 사람 : " << dog->GetSendName() << endl;
-    cout << "  내 용   : " << (string)*dog->GetImage() << endl;
+    cout << "Time   : " << dog->GetSendTime() << endl;
+    cout << "Sender : " << dog->GetSendName() << endl;
+    cout << "  Content   : " << (string)*dog->GetImage() << endl;
     cout << endl;
 
     delete dogImage;
