@@ -32,4 +32,5 @@ int main() {
 
     cout << inum << endl;
     cout << iname << endl;
+    cout << "i1 = " << i1 << endl;
 }
