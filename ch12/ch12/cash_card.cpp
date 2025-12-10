@@ -167,6 +167,11 @@ int main() {
     std::cout << "\n=== MinZeroCard Demo ===" << std::endl;
     MinZeroCard d_card(1000);
     d_card.withdraw(2000);
+    std::cout << "After withdraw 2000: " << d_card.check_balance() << std::endl;
+    d_card.deposit(10000);
+    std::cout << "After deposit 10000: " << d_card.check_balance() << std::endl;
+    d_card.withdraw(2000);
+    std::cout << "After withdraw 2000  (second attempt): " << d_card.check_balance() << std::endl;
 
     std::cout << "\n=== LimitCard Demo ===" << std::endl;
     LimitCard card_e(10000, 2000);
